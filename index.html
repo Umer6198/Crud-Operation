@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Cruds</title>
+  </head>
+  <body>
+    <form id="searchbar">
+      <input type="text" placeholder="Enter here" id="search" />
+      <input type="submit" id="searchClick"/>
+    </form>
+    <div class="main">
+      <button id="add">Add</button>
+      <table style="width: 90%">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tableData"></tbody>
+      </table>
+    </div>
+    <form id="form">
+      <input id="input1" type="text" placeholder="Name" value="" />
+      <div id="msg"></div>
+      <input id="input2" type="number" placeholder="Age" value="" />
+      <div id="msg1"></div>
+      <input id="input3" type="email" placeholder="E-mail" value="" />
+      <div id="msg2"></div>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+
+  <script src="index.js"></script>
+</html>
